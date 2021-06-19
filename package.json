@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "npm install && npx concurrently \"npx live-server\" \"npx tailwindcss -i ./src/css/styles.css -o ./public/css/tailwind.css -wm\""
+    "dev": "npm install && npx concurrently \"npx live-server\" \"npx tailwindcss -i ./src/css/global.css -o ./src/css/tailwind.css -wm\""
   },
   "devDependencies": {
     "@tailwindcss/aspect-ratio": "^0.2.1",
